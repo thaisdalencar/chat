@@ -1,0 +1,16 @@
+#formulario{
+	margin-top: 100px;
+	border: solid white 3px;
+	padding-right: 150px;
+	padding-top: 30px;
+	padding-botton: 30px;
+	background-color: white;
+
+}
+body{
+	background-color:  #ebebeb;
+}
+#msgErro{
+	margin-left: 210px;
+	color: red;
+}

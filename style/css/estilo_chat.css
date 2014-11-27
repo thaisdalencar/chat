@@ -1,0 +1,146 @@
+body{
+	background: #DADADA;
+}
+#corpo{
+	margin: 80px 100px 80px 100px;
+	width: 1300px;
+	height: 600px;
+	background-color: white;
+	border-radius:15px;
+	background: #DADADA;
+}
+#topo{	
+	background-color: #999999;
+}
+.text-capitalize{
+	text-transform: capitalize;
+		
+}
+.text-capitalize{
+	text-align: center;		
+}
+#sair{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: white;
+	border: 2px solid #ebebeb;
+	border-radius:5px;
+	padding: 5px;
+}
+#barra{
+	width: 200px;
+	border-right: 1 px solid black;
+	background: #ebebeb;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;  
+	float:left;
+}
+#divFora{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.boxes{
+	position: relative;
+	bottom: 0;
+	right: 0;
+	border: 2px solid gray;
+	float: left;			
+}
+.mensagem{	
+	width: 250px;
+	height: 295px;
+	margin-right: 5px;
+	margin-bottom: 0;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color: white;
+}
+.texto{
+	width: 250px;
+	height: 50px;
+}
+
+#nome_logado{
+	color: white;
+	font-size: 25px;
+}
+
+
+.status{
+	height: 17px;
+	width: 17px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.titulo{
+	width: 250px;
+	height: 30px;
+	background-color: gray;
+}
+#titulo_nome{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.fechar{
+	color: blue;
+	width: 250px;
+	height: 5px;
+	background-color: #DADADA;
+}
+.fechar:hover{
+	background-color: red;
+	color: white;
+}
+#teste{
+	color: red;
+}
+#style_msg{
+	font-size:15px;
+	max-width: 250px;
+}
+#style_data{
+	font-size:10px;
+	margin-left: 10px;
+	color: gray;
+}
+#remetente{
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+#eu_remetente{
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: blue;
+	font-weight: bold;
+}
+#aqui{
+	right: 0;
+	top: 50px;
+	position: fixed;
+}
+.status_off{
+	border: solid red 1px;
+}
+.status_on{
+	border: solid green 1px;
+}
+.membros{
+	font-size: 20px;
+	padding-top: 25px;
+}
